@@ -1,0 +1,103 @@
+.main {
+  width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-auto-rows: repeat(4, auto)
+}
+
+#navbar {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/header_bg.png);
+}
+
+div#navcontain {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  justify-self: end;
+  align-items: center;
+  grid-gap: 25px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+#carimage {
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  font-family: 'Lato', sans-serif;
+  grid-gap: 10px;
+  color: white;
+  height: 370px;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background-image: url(../img/banner_bg.png);
+}
+
+
+#navbar>li {
+  color: #647489;
+  float: right;
+  margin: 20px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+#logo {
+  margin-left: 30px;
+  margin-top: 1%;
+}
+
+div#bannertext {
+  align-self: normal;
+}
+
+
+
+.slider>h1 {
+  font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+  display: grid;
+  grid-auto-columns: 1fr;
+  color: white;
+  width: 1100px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+  background-image: url(../img/footer_bg.png);
+  padding: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 0px 2px #282828;
+}
+
+.slider {
+  display: grid;
+  font-family: 'Lato', sans-serif;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 5%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 2%;
+}
